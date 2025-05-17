@@ -1,0 +1,25 @@
+
+# DBT specific
+logs/
+target/
+dbt_packages/
+
+# Python specific (if you have a virtual environment inside)
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE specific
+.idea/
+.vscode/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+.env
+*/.env
+*.env
